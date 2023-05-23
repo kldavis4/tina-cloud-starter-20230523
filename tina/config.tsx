@@ -29,6 +29,16 @@ const config = defineConfig({
     publicFolder: "public", // The public asset folder for your framework
     outputFolder: "admin", // within the public folder
   },
+  tinaioConfig: {
+    contentApiUrlOverride: 'https://content.kelly.tinajs.dev',
+    identityApiUrlOverride: 'https://identity.kelly.tinajs.dev',
+    frontendUrlOverride: 'http://localhost:3002'
+  },
+  search: {
+    tina: {
+        indexerToken: '',
+    }
+  },
   schema: {
     collections: [
       {
