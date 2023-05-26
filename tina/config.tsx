@@ -48,21 +48,6 @@ const config = defineConfig({
         name: "smashingpost",
         label: "Smashing Articles",
         path: "content/smashingpost",
-        ui: {
-          defaultItem: {
-            image: "https://smashingmagazine.com/images/smashing-homepage.png"
-          },
-          filename: {
-            slugify: values => {
-              const postDate = values.date ? new Date(values.date) : new Date();
-              return `${postDate.toISOString().split("T")[0]}-${(
-                values.slug || ""
-              )
-                .toLowerCase()
-                .replace(/ /g, "-")}`.replace(/[^\w\.\/-\s]/gi, "");
-            }
-          }
-        },
         fields: [
           {
             type: "string",
@@ -180,9 +165,6 @@ const config = defineConfig({
             list: true,
             name: "categories",
             label: "Categories",
-            ui: {
-              component: "tags"
-            }
           },
           {
             type: "datetime",
@@ -216,13 +198,6 @@ const config = defineConfig({
               {
                 name: "rimg",
                 label: "Custom Image (rimg)",
-                ui: {
-                  defaultItem: {
-                    breakout: "true",
-                    sizes: "100vw",
-                    width: "800"
-                  }
-                },
                 match: {
                   start: "{{<",
                   end: ">}}"
@@ -234,21 +209,6 @@ const config = defineConfig({
                     name: "src",
                     label: "src",
                     type: "image",
-                    ui: {
-                      component: ({ input, ...props }) => {
-                        const { onChange, ...rest } = input;
-                        return ImageField({
-                          ...props,
-                          input: {
-                            ...rest,
-                            onChange: url => {
-                              props.form.change("href", url);
-                              return onChange(url);
-                            }
-                          }
-                        } as any);
-                      }
-                    }
                   },
                   {
                     // Be sure to call this field `text`
@@ -274,17 +234,6 @@ const config = defineConfig({
                     name: "breakout",
                     label: "breakout",
                     type: "string",
-                    ui: {
-                      component: "toggle",
-                      //@ts-ignore
-                      parse: value => {
-                        return value ? "true" : "false";
-                      },
-                      //@ts-ignore
-                      format: value => {
-                        return value === "true";
-                      }
-                    }
                   },
                   {
                     name: "sizes",
@@ -292,17 +241,6 @@ const config = defineConfig({
                     type: "string",
                     required: false,
                     description: "Size, (E.g: 100vw)",
-                    ui: {
-                      component: "number",
-                      //@ts-ignore
-                      parse: value => {
-                        return `${(value || 0).toString()}vw`;
-                      },
-                      //@ts-ignore
-                      format: value => {
-                        return value ? parseInt(value.replace("vw", "")) : 0;
-                      }
-                    }
                   },
                   {
                     name: "alt",
@@ -377,24 +315,6 @@ const config = defineConfig({
                     type: "string",
                     description:
                       "Leave this field blank to use the default settings"
-                  }
-                ]
-              },
-              {
-                name: "signature",
-                label: "Signature",
-                description:
-                  "vf, il, yk, mb, nl, ef, ks, ra, cm, ra, jw, ah, al, cc",
-                match: {
-                  start: "{{<",
-                  end: ">}}"
-                },
-                fields: [
-                  {
-                    // Be sure to call this field `text`
-                    name: "_value",
-                    label: "value",
-                    type: "string"
                   }
                 ]
               },
