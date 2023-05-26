@@ -1,0 +1,142 @@
+---
+title: 'Meet “Inclusive Components”, A New Printed Book By Heydon Pickering'
+slug: inclusive-components-prerelease
+author: vitaly-friedman
+image: >-
+  https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ea2cbe92-170d-42d1-8e8f-02e93a79bba0/inclusive-components-product-sharingimage.png
+date: 2019-11-07T12:30:00.000Z
+summary: >-
+  Heydon Pickering’s new book *Inclusive Components* explores more accessible and robust solutions for the UI patterns we author, plug in, and use every day. <a href="#toc">Jump to table of contents</a> or <a href="/printed-books/inclusive-components/" data-product-sku="inclusive-components" data-component="AddToCart" data-product-path="/printed-books/inclusive-components/" data-silent="true">pre-order the book right away.</a>
+description: >-
+  Heydon Pickering’s new book *Inclusive Components* explores more accessible and robust solutions for the UI patterns we author, plug in, and use every day.
+disable_ads: true
+disable_panels: true
+categories:
+  - Accessibility
+  - UI
+  - Smashing Books
+---
+The web is full of interfaces that leave people out. Of course, it’s not designers' malicious intent or developers' lack of empathy that bring us there. It’s just *really* difficult to foresee a wide range of situations in which our users might find themselves in. We need to build robust and reliable solutions in a world that’s inherently chaotic and unpredictable. Where do we even start?
+
+Because we often build and deploy under tough deadlines, we tend to **break accessibility** without even noticing it. Our products become slower, clunkier and more painful to use — often simply **unbearable** for keyboard- and screen reader users, and as such fragile and vulnerable for legal disputes. Let’s fix it.
+
+Meet <em><a href="#about-the-book">Inclusive Components</a></em>, our new handbook for building fully accessible websites and apps.
+
+<figure style="margin-bottom:0;padding-bottom:0" class="break-out article__image">
+    <a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png" title="Tap for a large preview of the book.">
+    <img style="border-radius:11px;" srcset="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png 400w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png 800w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png 1200w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png 1600w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png 2000w" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png" sizes="100vw" alt="Meet Inclusive Components, our new book for building accessible, inclusive interfaces. Written by one-and-only <a href='https://www.heydonworks.com/'>Heydon Pickering</a>.">
+    </a>
+    <figcaption>Because accessibility matters. We've teamed up with one-and-only <a href="https://www.heydonworks.com/">Heydon Pickering</a> to create a handbook for building accessible, inclusive interfaces. The eBook is finished, and it's being printed this very moment.</figcaption>
+</figure>
+
+## About The Book
+
+At its heart, *Inclusive Components* is a detailed, practical handbook for building fully accessible interfaces. The book examines 12 common interface patterns — <strong>accordions, tables, modals</strong>, notifications, tabs, toggles, and everything in-between — through the lens of inclusion. The result is <strong>accessible and robust components</strong> we author, plug in, and use daily.
+
+For years, <a href="https://www.heydonworks.com/">Heydon Pickering</a>, a seasoned front-end developer with a focus on accessibility, has been <a href="https://inclusive-components.design/">writing</a> about accessible solutions. We've teamed up with Heydon to produce a book with common challenges and solutions that he's been refining over all these years.
+
+For each component, the in-depth explorations are meticulously illustrated and all solutions are available as <strong>bulletproof code snippets</strong>, applicable to your work right away. Bonus: you'll learn how to build your own accessible components with inclusive design in mind — all in a single book. [Jump to table of contents](#toc).
+
+**332 pages**. eBook available as PDF, ePUB, Amazon Kindle. Written and designed by Heydon. *[Download a sample PDF](https://smashingmagazine.com/provide/eBooks/inclusive-components-free-chapter.pdf)* (1.1 MB). Shipping now.
+
+<figure style="margin-bottom:0;padding-bottom:0" class="break-out article__image">
+    <a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png">
+    <img style="border-radius:11px;" srcset="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 400w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 800w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 1200w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 1600w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 2000w" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png" sizes="100vw" alt="The cover of Inclusive Components, a new book by Heydon Pickering.">
+    </a>
+</figure>
+
+<figure style="margin-bottom:0;padding-bottom:0" class="break-out article__image">
+    <a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png">
+    <img style="border-radius:11px;" srcset="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png 400w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png 800w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png 1200w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png 1600w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png 2000w" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6d4d34a-4428-48ad-b675-833a084ae9b4/page02-b-opt.png" sizes="100vw" alt="The inner spreads of Inclusive Components.">
+    </a>
+</figure>
+
+{{< book-cta-buttons sku="inclusive-components" >}}
+
+## Table Of Contents
+
+Each chapter tackles a single component, addressing how different and vulnerable people might read and interact with it, and how they can be better accommodated. *[Download a sample PDF](https://smashingmagazine.com/provide/eBooks/inclusive-components-free-chapter.pdf)* (1.1 MB).
+
+<div class="js-table-accordion accordion book__toc" id="TOC" aria-multiselectable="true"><dl class="accordion-list" data-handler="Accordion" style="margin-bottom: 1em;"><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">1. Toggle Buttons</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">What does it take to make toggle buttons inclusive? To start off, Heydon takes a look at common pitfalls and what you need to keep in mind to do better.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">2. A Todo List</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">You’ll learn how to build an integrated todo list component from the ground up. This doesn’t have to apply only to todo lists but also to making the basic creation and deletion of content inclusive.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">3. Menus &amp; Menu Buttons</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Menus, dropdowns, subnavigation. There’s a lot of confusion happening around these terms. Why is this happening, why are WAI-ARIA semantics often misused here, how do we properly use “hamburgers” and “navicons,” and what do you need to consider to make your menus keyboard- and screen-reader-accessible?</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">4. Tooltips &amp; Toggletips</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Inclusive design is often about providing the user with the right tool for the job and the right kind of tooltip to go with that tool. In this chapter, we’ll be looking at situations which might call for a tooltip and learn how to formulate inclusive implementations for them.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">5. A Theme Switcher</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Offering alternative themes often represents a maintenance issue. This chapter explores how to make an efficient and portable React component that allows users to switch a default light theme into “dark mode”.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">6. Tabbed Interfaces</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">What makes a tabbed interface a tabbed interface is in the ergonomics of its keyboard behavior. Heydon takes you step-by-step through the process of applying ARIA semantics to master the challenges that tabbed interfaces might bring along.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">7. Collapsible Sections</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Although implementing collapsible sections is rather simple, the interaction does not have a consistent native implementation across browsers. The tips in this chapter will help you turn your collapsible regions into web components that are easy to include as part of larger patterns and in content files.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">8. A Content Slider</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Carousels don’t have to be bad, but we have a culture of making them bad. This chapter explores how you can create something that fulfills a basic purpose without overloading it with features.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">9. Notifications</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">When web pages undergo changes as you operate them, it’s important that users are kept abreast of changing states. This chapter looks at notification components and how they can increase confidence in the use of web applications, in an inclusive way.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">10. Data Tables</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Let’s explore what it takes to make your data tables screen reader accessible, responsive, and as ergonomic as possible for everyone. Plus a trick for fixing old layout tables that cause confusion for visually-impaired users.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">11. Modal Dialogs</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">Modal dialogs are often contentious and problematic, so let’s reconsider if they really make sense for your use case and, if yes, examine them in the context of inclusive design thinking and performance.</div></dd><dt tabindex="0" class="accordion-item" id="accordion-item-0" aria-expanded="false"><div class="book__toc__accordion-text"><div class="book__toc__chapter-col chapter__title">12. Cards</div></div><div class="accordion-expand-btn-wrapper"><span class="accordion-expand-btn js-accordion-expand-btn">+</span></div></dt><dd class="accordion-desc" id="accordion-desc-0" aria-hidden="true"><div class="book__toc__chapter-col chapter__summary">The card component is the last component tackled in the book as it requires the most invention. So in this final chapter, we’ll look into a few permutations of a simple card component and find a balance between sound HTML structure and ergonomic interaction.</div></dd></dl></div>
+
+<figure class="break-out article__image"><a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png"><img style="border-radius: 11px;" srcset="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png 400w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png 800w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png 1200w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png 1600w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png 2000w" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4986efb4-7584-4da6-9200-f243c3b267ab/page-opt.png" sizes="100vw" alt=""></a><figcaption class="op-vertical-bottom">A preview of the book, with examples ranging from accordions to toggles, tables, notifications, dialogs etc. <a href="https://smashingmagazine.com/provide/eBooks/inclusive-components-free-chapter.pdf">Download a sample PDF</a> (1.1 MB). <a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/50529a0d-1825-4279-a1df-b0276d5ee68c/page01-b-opt.png">Large preview</a>.</figcaption></figure>
+
+## About The Author
+
+<div>
+<a href="https://twitter.com/heydonworks"><img style="float:right;margin-top:1em;margin-left:1.5em;margin-bottom:1em;border-radius:11px;max-width:50%" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/137247ab-658d-4991-9071-738a2a41b83e/heydon-pickering-author-headshot.jpg" width="220" alt="Heydon Pickering" /></a>
+
+<p>Heydon Pickering (<a href="https://twitter.com/heydonworks">@heydonworks</a>) has worked with The Paciello Group, The BBC, Smashing Magazine, and Bulb Energy as a designer, engineer, writer, editor, and illustrator. He was shortlisted for Designer Of The Year in The Net Awards.</p>
+
+<p>Heydon previously wrote <a href="https://www.smashingmagazine.com/printed-books/inclusive-front-end-design-patterns/">Inclusive Design Patterns</a> which sold over 10,000 copies. Proceeds from this title were donated to the ACLU and The Democratic Socialists Of America, to help these organizations fight fascism and create a more inclusive society.</p>
+</div>
+
+## Testimonials
+
+<blockquote><a href="https://twitter.com/iamsapegin"><img style="float:right;margin-top:1em;margin-left:0.9em;margin-bottom:1em;border-radius:50%;max-width:50%" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/35a4390f-2766-4e17-a6a0-5f2a0693890a/artem-sapegin.jpg" width="150" height="150" alt="Artem Sapegin" /></a>“Inclusive Components is a very <strong>deep and thorough explanation</strong> of development of accessible components with real world examples. Heydon Pickering shows several alternative approaches and explains pros and cons of each. It’s also a pleasure to read!”<br /><br />&mdash; <a href="https://twitter.com/iamsapegin">Artem Sapegin</a>, front-end developer, Wayfair</blockquote>
+
+<blockquote><a href="https://twitter.com/sarah_federman"><img style="float:right;margin-top:1em;margin-left:0.9em;margin-bottom:1em;border-radius:50%;max-width:50%" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5d19b9f1-3a86-45df-8e82-8ef2724f37db/sarah-federman.jpg" width="150" height="150" alt="Sarah Federman" /></a>“Inclusive Components is chock-full of <strong>practical and comprehensive</strong> advice on building accessible UI. It’s my go-to resource after the official WCAG and ARIA documentation. I’ve found it extremely helpful when building our design system!”<br /><br />&mdash; <a href="https://twitter.com/sarah_federman">Sarah Federman</a>, senior front-end developer</blockquote>
+
+<blockquote><a href="https://nodividestudio.com/"><img style="float:right;margin-top:1em;margin-left:0.9em;margin-bottom:1em;border-radius:50%;max-width:50%" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0f3a4d8c-f8b3-4e16-b3d0-e4ad9a667730/andy-bell.jpg" width="150" height="150" alt="Andy Bell" /></a>“What Heydon achieves with his work on Inclusive Components is a pragmatic, <strong>friendly and approachable</strong> set of guides that help you to generate not just accessible components, but also resilient and progressive starting-points that will help you to build better websites and web apps in general. I often describe this work as crucial learning material for this exact reason.”<br /><br />&mdash; <a href="https://nodividestudio.com/">Andy Bell</a>, independent designer &amp; developer</blockquote>
+
+## Why This Book Might Be For You
+
+The devil is in the detail and often the things you do with good intentions can impose accessibility barriers unknowingly. *Inclusive Components* is for every <strong>front-end developer</strong> who wants to learn how to detect and address potential accessibility issues in their work. The book will teach you:
+
+1. How to use `<button>` elements, how to apply styles to your <strong>toggle buttons</strong>, and how to label them.
+2. How to create managed lists that allow users to create and delete content — in an inclusive way.
+3. How to address and resolve accessibility issues with <strong>navigation menus</strong> and submenus (aka “dropdowns”).
+4. How to create accessible and keyboard-friendly <strong>tooltips</strong> and toggletips.
+5. How to create a <strong>“dark mode”</strong> theme that's both accessible and maintainable long-term.
+6. How to build an accessible <strong>content slider</strong> to prevent harm for motion-sensitive people.
+7. How to create <strong>inclusive notifications</strong> with live regions to communicate with your users through visual and aural channels simultaneously.
+8. How to create <strong>data tables</strong> that are semantically correct, responsive, and sortable.
+9. How to build accessible <strong>dialogs and modal dialogs</strong> with performance and inclusive design in mind.
+10. How to create and group inclusive <strong>cards</strong> (e.g. for teasers).
+
+## Technical Details
+
+* ISBN: `978-3-945749-82-1` (print)
+* Quality hardcover, stitched binding, ribbon page marker.
+* The **eBook** is available as PDF, ePUB, and Amazon Kindle [from Heydon’s site](https://book.inclusive-components.design/).
+* Free worldwide airmail shipping from Germany. ([Check your delivery times](https://www.smashingmagazine.com/delivery-times/).) Shipping now.
+* Available as <a href="https://book.inclusive-components.design">eBook</a> and <a href="/printed-books/inclusive-components/" data-product-sku="inclusive-components" data-component="AddToCart" data-product-path="/printed-books/inclusive-components/" data-silent="true">print + eBook.</a>
+
+## Community Matters ❤️
+
+<p>With <em>Inclusive Components</em>, we've tried to create a very <em>focused</em> handbook with <strong>applicable, long-living solutions</strong> and strategies to create accessible and inclusive interfaces.</p>
+
+<p>Our hope is that with Heydon's book, you will be able to make <strong>better design and coding decisions</strong> as you build your interfaces. Perhaps it will even become one of those reference books you'll reach to every time you need to build one of those common UI components.</p>
+
+<p>Producing a book takes quite a bit of time, and we couldn't pull it off without the support of our wonderful <strong>community</strong>. A huge shout-out to Smashing Members for their ongoing support in our adventures. As a result, the eBook is and always will be <a href="https://www.smashingmagazine.com/membership">free for <em>Smashing Members</em></a>. Plus, Members get a friendly discount when purchasing their printed copy.</p>
+
+<p><em>Stay smashing, and thank you for your ongoing support, everyone!</em></p>
+
+<figure style="margin-bottom:0;padding-bottom:0" class="break-out article__image">
+    <a href="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png">
+    <img style="border-radius:11px;" srcset="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 400w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 800w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 1200w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 1600w,
+			        https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png 2000w" src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9bf0c11e-616c-4619-aaa5-c50d79f8c1cf/inclusive-components-product-image-landscapea.png" sizes="100vw" alt="The cover of Inclusive Components, a new book by Heydon Pickering.">
+    </a>
+</figure>
+
+
+{{< book-cta-buttons sku="inclusive-components" >}}
