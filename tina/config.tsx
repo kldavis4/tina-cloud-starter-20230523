@@ -30,9 +30,12 @@ const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   tinaioConfig: {
-    contentApiUrlOverride: 'https://content.kelly.tinajs.dev',
-    identityApiUrlOverride: 'https://identity.kelly.tinajs.dev',
-    frontendUrlOverride: 'http://localhost:3002'
+    //contentApiUrlOverride: 'https://content.kelly.tinajs.dev',
+    //identityApiUrlOverride: 'https://identity.kelly.tinajs.dev',
+    //frontendUrlOverride: 'http://localhost:3002'
+    contentApiUrlOverride: 'https://pr1832-content.tinajs.dev',
+    identityApiUrlOverride: 'https://pr1832-identity.tinajs.dev',
+    frontendUrlOverride: 'https://pr1832-app.tinajs.dev'
   },
   search: {
     tina: {
@@ -41,6 +44,509 @@ const config = defineConfig({
   },
   schema: {
     collections: [
+          {
+        name: "smashingpost",
+        label: "Smashing Articles",
+        path: "content/smashingpost",
+        ui: {
+          defaultItem: {
+            image: "https://smashingmagazine.com/images/smashing-homepage.png"
+          },
+          filename: {
+            slugify: values => {
+              const postDate = values.date ? new Date(values.date) : new Date();
+              return `${postDate.toISOString().split("T")[0]}-${(
+                values.slug || ""
+              )
+                .toLowerCase()
+                .replace(/ /g, "-")}`.replace(/[^\w\.\/-\s]/gi, "");
+            }
+          }
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true
+          },
+          {
+            type: "string",
+            name: "slug",
+            label: "Slug",
+            required: true
+          },
+          {
+            type: "image",
+            name: "image",
+            label: "Image",
+            ui: {
+              validate: value => {
+                if (!value?.length) {
+                  return "Image is required";
+                }
+              }
+            }
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+            description:
+              "Publish date and time (in your local time). You can change this later",
+            ui: {
+              timeFormat: "HH:mm"
+            },
+            required: true
+          },
+          {
+            type: "boolean",
+            name: "disable_ads",
+            description: "Disable ads for sponsored articles",
+            label: "Disable Ads"
+          },
+          {
+            type: "boolean",
+            name: "disable_panels",
+            description: "Disable ad panels for sponsored articles",
+            label: "Disable Panels"
+          },
+          {
+            type: "boolean",
+            name: "disable_newsletterbox",
+            description: "Disable newsletter box for sponsored articles",
+            label: "Disable Newsletter Box"
+          },
+          {
+            type: "object",
+            name: "sponsor",
+            label: "Sponsor",
+            description: "Sponsor for this post (if applicable)",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                description:
+                  "Sponsor name. This is used as alt text for the image"
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link",
+                description: "Link to sponsor website"
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+                description:
+                  "Please use SVG format. This is usally just the sponsor logo"
+              },
+              {
+                type: "rich-text",
+                name: "description",
+                label: "Description",
+                description:
+                  "This is the sponsorship text that appears at the top of the article",
+                parser: { type: "markdown", skipEscaping: "all" } // 'all' | 'html'
+              }
+            ]
+          },
+          {
+            type: "rich-text",
+            name: "summary",
+            label: "Summary",
+            description: "This is for the article page",
+            parser: { type: "markdown", skipEscaping: "all" } // 'all' | 'html'
+          },
+          {
+            type: "rich-text",
+            name: "description",
+            label: "Description",
+            description: "This is for the homepage",
+            parser: { type: "markdown", skipEscaping: "all" } // 'all' | 'html'
+          },
+          {
+            name: "author",
+            label: "Author",
+            type: "reference",
+            collections: ["author"],
+            required: true
+          },
+          {
+            type: "string",
+            list: true,
+            name: "categories",
+            label: "Categories",
+            ui: {
+              component: "tags"
+            }
+          },
+          {
+            type: "datetime",
+            name: "last_updated",
+            label: "Last Updated",
+            description:
+              "Last updated date and time (in your local time). You can change this later",
+            ui: {
+              timeFormat: "HH:mm"
+            },
+          },
+          {
+            name: "updated_by",
+            label: "Last Updated By",
+            type: "reference",
+            collections: ["author"],
+            required: true
+          },
+          {
+            name: "evergreen",
+            label: "Evergreen",
+            type: "boolean",
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            parser: { type: "markdown", skipEscaping: "all" }, // 'all' | 'html'
+            isBody: true,
+            templates: [
+              {
+                name: "rimg",
+                label: "Custom Image (rimg)",
+                ui: {
+                  defaultItem: {
+                    breakout: "true",
+                    sizes: "100vw",
+                    width: "800"
+                  }
+                },
+                match: {
+                  start: "{{<",
+                  end: ">}}"
+                },
+                //@ts-ignore
+                fields: [
+                  {
+                    // Be sure to call this field `text`
+                    name: "src",
+                    label: "src",
+                    type: "image",
+                    ui: {
+                      component: ({ input, ...props }) => {
+                        const { onChange, ...rest } = input;
+                        return ImageField({
+                          ...props,
+                          input: {
+                            ...rest,
+                            onChange: url => {
+                              props.form.change("href", url);
+                              return onChange(url);
+                            }
+                          }
+                        } as any);
+                      }
+                    }
+                  },
+                  {
+                    // Be sure to call this field `text`
+                    name: "href",
+                    label: "href",
+                    description:
+                      "When someone clicks this image, where should they go? (Example https://google.com)",
+                    type: "string"
+                  },
+                  {
+                    // Be sure to call this field `text`
+                    name: "caption",
+                    description:
+                      "Caption below the image. HTML is supported in this field",
+                    label: "caption",
+                    type: "string",
+                    ui: {
+                      component: "textarea"
+                    }
+                  },
+                  //@ts-ignore
+                  {
+                    name: "breakout",
+                    label: "breakout",
+                    type: "string",
+                    ui: {
+                      component: "toggle",
+                      //@ts-ignore
+                      parse: value => {
+                        return value ? "true" : "false";
+                      },
+                      //@ts-ignore
+                      format: value => {
+                        return value === "true";
+                      }
+                    }
+                  },
+                  {
+                    name: "sizes",
+                    label: "sizes",
+                    type: "string",
+                    required: false,
+                    description: "Size, (E.g: 100vw)",
+                    ui: {
+                      component: "number",
+                      //@ts-ignore
+                      parse: value => {
+                        return `${(value || 0).toString()}vw`;
+                      },
+                      //@ts-ignore
+                      format: value => {
+                        return value ? parseInt(value.replace("vw", "")) : 0;
+                      }
+                    }
+                  },
+                  {
+                    name: "alt",
+                    label: "alt",
+                    type: "string"
+                  },
+                  {
+                    name: "width",
+                    label: "width",
+                    type: "string",
+                    description: "This is usually just 800. Do not add units",
+                    required: false,
+                  },
+                  {
+                    name: "height",
+                    label: "height",
+                    description:
+                      "This is automatically calculated based on the aspect on the image aspect ratio",
+                    type: "string",
+                    required: false,
+                  }
+                ]
+              },
+              {
+                name: "pull_quote",
+                label: "Pull Quote",
+                match: {
+                  name: "pull-quote",
+                  start: "{{%",
+                  end: "%}}"
+                },
+                fields: [
+                  {
+                    name: "children",
+                    type: "rich-text",
+                    parser: { type: "markdown", skipEscaping: "all" },
+                  }
+                ]
+              },
+              {
+                name: "ad_panel_leaderboard",
+                label: "Ad Panel",
+                match: {
+                  name: "ad-panel-leaderboard",
+                  start: "{{%",
+                  end: "%}}"
+                },
+                fields: [
+                  {
+                    // Be sure to call this field `text`
+                    name: "_value",
+                    label: "value",
+                    type: "string",
+                    description:
+                      "Leave this field blank to use the automatic ad panel content"
+                  }
+                ]
+              },
+              {
+                name: "newsletter_panel",
+                label: "Newsletter Panel",
+                match: {
+                  name: "newsletter-panel",
+                  start: "{{%",
+                  end: "%}}"
+                },
+                fields: [
+                  {
+                    // Be sure to call this field `text`
+                    name: "_value",
+                    label: "value",
+                    type: "string",
+                    description:
+                      "Leave this field blank to use the default settings"
+                  }
+                ]
+              },
+              {
+                name: "signature",
+                label: "Signature",
+                description:
+                  "vf, il, yk, mb, nl, ef, ks, ra, cm, ra, jw, ah, al, cc",
+                match: {
+                  start: "{{<",
+                  end: ">}}"
+                },
+                fields: [
+                  {
+                    // Be sure to call this field `text`
+                    name: "_value",
+                    label: "value",
+                    type: "string"
+                  }
+                ]
+              },
+              {
+                name: "feature_panel",
+                label: "Feature Panel",
+                match: {
+                  name: "feature-panel",
+                  start: "{{%",
+                  end: "%}}"
+                },
+                fields: [
+                  {
+                    // Be sure to call this field `text`
+                    name: "id",
+                    label: "value",
+                    type: "string",
+                    description:
+                      "Leave this field blank to use the automatic feature panel content"
+                  }
+                ]
+              },
+              {
+                name: "vimeo",
+                label: "Vimeo",
+                match: {
+                  start: "{{<",
+                  end: ">}}"
+                },
+                fields: [
+                  {
+                    name: "id",
+                    label: "ID",
+                    type: "string",
+                    description:
+                      "The 9-digit number at the end of the Vimeo URL"
+                  },
+                  {
+                    name: "caption",
+                    label: "Caption",
+                    description: "This is optional",
+                    type: "string"
+                  },
+                  {
+                    name: "breakout",
+                    label: "Breakout",
+                    type: "string",
+                    ui: {
+                      component: "toggle",
+                      //@ts-ignore
+                      parse: value => {
+                        return value ? "true" : "false";
+                      },
+                      //@ts-ignore
+                      format: value => {
+                        return value === "true";
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                name: "youtube",
+                label: "YouTube",
+                match: {
+                  start: "{{<",
+                  end: ">}}"
+                },
+                fields: [
+                  {
+                    name: "id",
+                    label: "ID",
+                    type: "string",
+                    description:
+                      "This is approximately 10 numbers & letters in the YouTube URL"
+                  },
+                  {
+                    name: "caption",
+                    label: "Caption",
+                    description: "This is optional",
+                    type: "string"
+                  },
+                  {
+                    name: "breakout",
+                    label: "Breakout",
+                    type: "string",
+                    ui: {
+                      component: "toggle",
+                      //@ts-ignore
+                      parse: value => {
+                        return value ? "true" : "false";
+                      },
+                      //@ts-ignore
+                      format: value => {
+                        return value === "true";
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                name: "codepen",
+                label: "codepen",
+                inline: true,
+                match: {
+                  start: "{{<",
+                  end: ">}}"
+                },
+                fields: [
+                  {
+                    name: "height",
+                    type: "string"
+                  },
+                  {
+                    name: "theme_id",
+                    type: "string"
+                  },
+                  {
+                    name: "slug_hash",
+                    type: "string"
+                  },
+                  {
+                    name: "default_tab",
+                    type: "string"
+                  },
+                  {
+                    name: "breakout",
+                    type: "string"
+                  },
+                  {
+                    name: "user",
+                    type: "string"
+                  },
+                  {
+                    name: "editable",
+                    type: "string"
+                  },
+                  // {
+                  //   name: "data-editable",
+                  //   type: "string"
+                  // },
+                  {
+                    name: "children",
+                    type: "rich-text",
+                    parser: { type: "markdown", skipEscaping: "all" } // 'all' | 'html'
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         label: "Blog Posts",
         name: "post",
